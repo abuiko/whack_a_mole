@@ -1,3 +1,9 @@
+.wrapper {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+}
+
 .container {
     width: 900px;
     height: 500px;
@@ -8,8 +14,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .grid {
@@ -34,5 +38,4 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10px 15px;
-
 }
