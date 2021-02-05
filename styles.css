@@ -1,0 +1,38 @@
+.container {
+    width: 900px;
+    height: 500px;
+    background-image: url('/img/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: space-around;
+    width: 520px;
+    height: 300px;
+}
+
+.square {
+    margin: 10px;
+    width: 120px;
+    height: 70px;
+    background: rgb(65, 13, 13);
+    border-radius: 50%;
+}
+
+.mole {
+    background-image: url('/img/mole.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10px 15px;
+
+}
